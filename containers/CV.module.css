@@ -1,0 +1,70 @@
+.content {
+  padding: 3rem 5rem;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin: 60px 0 20px;
+  color: rgb(219, 218, 218);
+  font-size: 5rem;
+  font-weight: 200;
+}
+
+.filesImg {
+  width: 35%;
+  min-width: 120px;
+  padding: 1rem;
+}
+
+.filesImg img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pdfWrapper {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.downloadText {
+  margin-left: 8px;
+  text-transform: uppercase;
+}
+
+.filename {
+  padding-top: 3px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding-bottom: 10px;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .pdfWrapper {
+    width: 100%;
+    padding: 2rem 0;
+  }
+}
+
+@media (max-width: 925px) {
+  .content {
+    padding: 9rem 3rem 1rem;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+}
