@@ -1,11 +1,13 @@
-import React, { useEffect } from 'react';
+import React, { use, useEffect } from 'react';
 import { greetings } from '../portfolio';
 import { Button, Container, Row, Col } from 'reactstrap';
 import GreetingLottie from '../components/DisplayLottie';
 import SocialLinks from '../components/SocialLinks';
 import Typed from 'react-typed';
+import { useScreenWidth } from '../utils';
 
 const Greetings = () => {
+  const screenWidth = useScreenWidth();
   useEffect(() => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement!.scrollTop = 0;
@@ -35,6 +37,7 @@ const Greetings = () => {
                         backDelay={1100}
                         backSpeed={30}
                         loop
+                        style={screenWidth < 768 ? { fontSize: '2rem' } : {}}
                       />
                     </strong>
                   </p>
