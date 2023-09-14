@@ -4,7 +4,6 @@ import {
   ExperienceType,
   ProjectType,
   SkillsSectionType,
-  SkillBarsType,
   SEODataType,
   SocialLinksType,
   GreetingsType,

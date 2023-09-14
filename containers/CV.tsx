@@ -16,7 +16,7 @@ const CV = () => {
   });
 
   const resumeLink =
-    'https://raw.githubusercontent.com/mariusrp/portfolio/master/CV-portfolio.pdf';
+    'https://raw.githubusercontent.com/mariusrp/portfolio/master/CV.pdf';
   const Resume = () => {
     const pdfWrapper = useRef<HTMLDivElement | null>(null);
     const [pdfPageWidth, setPdfPageWidth] = useState<number | null>(null);
