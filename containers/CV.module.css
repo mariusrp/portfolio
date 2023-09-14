@@ -3,6 +3,12 @@
   margin: auto;
 }
 
+@media (max-width: 992px) {
+  .content {
+    padding: 3rem 2rem;
+  }
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -67,4 +73,8 @@
   .title {
     font-size: 4rem;
   }
+}
+
+.hiddenDocument {
+  display: none;
 }

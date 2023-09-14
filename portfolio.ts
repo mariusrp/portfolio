@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   jobTitle: ['Front End Developer', 'Back End Developer', 'Software Engineer'],
   description:
     'A passionate Full Stack Web Developer and have experience in building Web applications with JavaScript / Reactjs / Nodejs / Python and some other cool libraries and frameworks.',
-  resumeLink: 'https://drive.googl',
+  resumeLink: '/cv',
 };
 
 export const openSource = {
@@ -46,16 +46,12 @@ export const skillsSection: SkillsSectionType = {
       ],
       softwareSkills: [
         {
-          skillName: 'HTML-5',
-          iconifyTag: 'vscode-icons:file-type-html',
+          skillName: 'nodejs',
+          iconifyTag: 'logos:nodejs-icon',
         },
         {
-          skillName: 'CSS-3',
-          iconifyTag: 'vscode-icons:file-type-css',
-        },
-        {
-          skillName: 'JavaScript',
-          iconifyTag: 'logos:javascript',
+          skillName: 'TypeScript',
+          iconifyTag: 'logos:typescript-icon',
         },
         {
           skillName: 'Reactjs',
@@ -93,33 +89,10 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Github',
           iconifyTag: 'akar-icons:github-fill',
         },
-        // {
-        //   skillName: 'Docker',
-        //   iconifyTag: 'logos:docker-icon',
-        // },
-        // {
-        //   skillName: 'Github Actions',
-        //   iconifyTag: 'logos:github-actions',
-        // },
       ],
     },
   ],
 };
-
-export const SkillBars: SkillBarsType[] = [
-  {
-    Stack: 'Frontend/Design',
-    progressPercentage: '90',
-  },
-  {
-    Stack: 'Backend',
-    progressPercentage: '70',
-  },
-  {
-    Stack: 'Programming',
-    progressPercentage: '60',
-  },
-];
 
 export const educationInfo: EducationType[] = [
   {
@@ -156,16 +129,16 @@ export const projects: ProjectType[] = [
   {
     name: 'Google Clone',
     projectImg: 'img/icons/common/google-clone.png',
-    desc: 'A Google clone application built by implementing the IMDB API',
+    desc: 'A Google clone application built by implementing the Google API',
     github: 'https://github.com/mariusrp/ts-ecommerce',
     link: 'https://google-clone-kb96uz4fc-mariusrp.vercel.app/',
   },
   {
     name: 'IMDB Clone',
     projectImg: 'img/icons/common/imdb-clone.png',
-    desc: 'An IMDB Clone application built by implementing the google API',
+    desc: 'An IMDB Clone application built by implementing the IMDB API',
     github: 'https://imdb-final-opl93phml-mariusrp.vercel.app/',
-    link: 'https://automatehub.onrender.com/',
+    link: 'https://mpmovies.vercel.app/',
   },
 ];
 

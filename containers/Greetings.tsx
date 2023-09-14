@@ -38,7 +38,6 @@ const Greetings = () => {
                       />
                     </strong>
                   </p>
-                  {/* <p className="lead text-white">{greetings.description}</p> */}
                   <SocialLinks />
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">
@@ -50,7 +49,7 @@ const Greetings = () => {
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
                         </span>
-                        <span className="btn-inner--text">See My Resume</span>
+                        <span className="btn-inner--text">See my CV</span>
                       </Button>
                     </div>
                   )}
