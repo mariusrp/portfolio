@@ -6,9 +6,9 @@ import { contactMessage } from '../portfolio';
 
 const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
   return (
-    <section id="contact">
+    <section id="githubCard">
       <Card className="section-lg bg-gradient-blue shadow-lg border-0">
-        <Container className="">
+        <Container>
           <div className="p-2">
             <Row className="">
               <Col className="order-lg-2" lg="4">

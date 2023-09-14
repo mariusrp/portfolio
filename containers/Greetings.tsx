@@ -21,7 +21,7 @@ const Greetings = () => {
         <section className="section section-lg section-shaped pb-250 greetings">
           <div className="shape shape-style-1 bg-gradient-blue"></div>
           <Container className="py-lg-md d-flex">
-            <div className="col px-0" style={{ paddingTop: '150px' }}>
+            <div className="col px-0 greetings-padding">
               <Row>
                 <Col lg="6">
                   <h1 className="display-3 text-white greetings-title">

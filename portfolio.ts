@@ -147,7 +147,7 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: 'AutomateHub (Ecommerce)',
+    name: 'AutomateHub',
     projectImg: 'img/icons/common/automatehub.png',
     desc: 'Ecommerce website built to sell smart home related gadgets (15sec reload-time)',
     github: 'https://github.com/mariusrp/ts-ecommerce',
@@ -176,14 +176,19 @@ export const seoData: SEODataType = {
   title: 'Marius Phillips',
   description: 'A passionate Full Stack Web Developer.',
   author: 'Marius Phillips',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  image:
+    'https://avatars.githubusercontent.com/u/119750054?s=400&u=7504bf9d9fde17e1fd5df6ea2f894b1159cb98a8&v=4',
+  url: 'https://mariusp.vercel.app',
   keywords: [
     'Marius',
     'Marius Phillips',
     '@mariusep',
     'mariusep',
     'mariusrp',
+    'marius phillips',
+    'marius phillips portfolio',
+    'mariusp',
+    'mariusp portfolio',
     '@mariusrp',
     '@mariusrp portfolio',
     'Portfolio',

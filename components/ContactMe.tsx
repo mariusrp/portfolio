@@ -72,7 +72,7 @@ export const ContactMe = () => {
 
   return (
     <>
-      <section className="section section-lg section-shaped">
+      <section className="section section-lg section-shaped" id="contact">
         <form ref={form} onSubmit={sendEmail}>
           <Container>
             <Row className="justify-content-center">

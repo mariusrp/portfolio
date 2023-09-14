@@ -22,15 +22,12 @@ const ProjectsCard = ({
                   src={projectImg}
                   style={{
                     objectFit: 'cover',
-                    left: 0,
-                    right: 0,
-                    top: '7rem',
-                    marginBottom: '1rem',
-                    marginTop: '1rem',
+                    width: '100%',
+                    height: 'auto',
                     marginLeft: 'auto',
                     marginRight: 'auto',
-                    width: '24rem',
-                    height: '14rem',
+                    marginBottom: '1rem',
+                    marginTop: '1rem',
                   }}
                   className="shadow mb-3"
                   alt={name}

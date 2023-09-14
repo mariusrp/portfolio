@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { greetings, socialLinks } from '../portfolio';
+import { greetings } from '../portfolio';
 import Headroom from 'headroom.js';
 import {
   UncontrolledCollapse,
@@ -13,16 +13,16 @@ import {
   Col,
 } from 'reactstrap';
 import emoji from 'react-easy-emoji';
+import { useScreenWidth } from '../utils';
 
 const Navigation = () => {
   const [collapseClasses, setCollapseClasses] = useState('');
   const onExiting = () => setCollapseClasses('collapsing-out');
-
   const onExited = () => setCollapseClasses('');
+  const screenWidth = useScreenWidth();
 
   useEffect(() => {
     let headroom = new Headroom(document.getElementById('navbar-main')!);
-    // initialise
     headroom.init();
   });
 
@@ -81,7 +81,10 @@ const Navigation = () => {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link-icon" href="#contact">
+                  <NavLink
+                    className="nav-link-icon"
+                    href={screenWidth <= 768 ? '#contact' : '#githubCard'}
+                  >
                     <span className="nav-link-inner--text">
                       {emoji('✉️ Contact me')}
                     </span>

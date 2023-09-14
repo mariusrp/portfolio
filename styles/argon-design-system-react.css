@@ -32,6 +32,18 @@
   color: var(--neutral) !important;
 }
 
+.greetings-padding {
+  padding-top: 150px !important;
+}
+
+
+
+@media (max-width: 991px) {
+  .greetings-padding {
+      padding-top: 70px !important;  
+  }
+}
+
 :root {
   --blue: #5e72e4;
   --indigo: #5603ad;
