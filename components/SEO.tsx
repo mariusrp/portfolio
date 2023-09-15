@@ -11,6 +11,10 @@ function SEO() {
       <meta name="description" content={seoData.description} />
       <meta name="keywords" content={seoData.keywords.join(', ')} />
       <link rel="canonical" href={seoData.url} />
+      <meta
+        name="google-site-verification"
+        content="u9FxWu1oLWpcCa6_u__RvlLTC7OcxV9hW_-c0bLd1Kk"
+      />
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content={seoData.url} />
