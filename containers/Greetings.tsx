@@ -37,7 +37,6 @@ const Greetings = () => {
                         backDelay={1100}
                         backSpeed={30}
                         loop
-                        style={screenWidth < 768 ? { fontSize: '2rem' } : {}}
                       />
                     </strong>
                   </p>

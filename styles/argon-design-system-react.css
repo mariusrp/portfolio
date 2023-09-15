@@ -22733,7 +22733,29 @@ td.rdtYear:hover {
 .text-slider {
   font-weight: 300 !important;
   color: rgba(255, 255, 255, 0.65) !important;
-  font-size: 2.875rem !important;
+  font-size: 3rem !important;
 }
+
+
+@media (max-width: 485px) {
+  .text-slider {
+    font-size: 2.5rem !important;
+  }
+}
+
+@media (max-width: 410px) {
+  .text-slider {
+    font-size: 2rem !important;
+  }
+}
+
+@media (max-width: 333px) {
+  .text-slider {
+    font-size: 1.5rem !important;
+  }
+}
+
+
+  
 
 /*# sourceMappingURL=argon-design-system-react.css.map */

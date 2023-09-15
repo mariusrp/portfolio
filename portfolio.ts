@@ -30,64 +30,66 @@ export const socialLinks: SocialLinksType = {
   github: 'https://github.com/mariusrp',
 };
 
-export const skillsSection: SkillsSectionType = {
+export const skillsSection = {
   title: 'What do I know?',
   subTitle: 'SELFTAUGHT FULL STACK DEVELOPER',
   data: [
     {
-      title: 'Full Stack Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      title: 'Frontend Development',
+      lottieAnimationFile: '/lottie/skills/fullstack.json',
       skills: [
-        emoji('🔹  Building responsive applications using React.js'),
-        emoji('🔹  Building RESTful APIs in Node.js & Express.js'),
-        emoji('🔹  Building scalable backend applications using Typescript'),
-        emoji('🔹  Building and deploying fullstack applications'),
+        emoji('🔹 Designing and developing UI using HTML5 & CSS3'),
+        emoji('🔹 Creating dynamic applications using JavaScript & TypeScript'),
+        emoji('🔹 Building responsive UIs with React.js & Next.js'),
+        emoji('🔹 State management using Redux'),
       ],
       softwareSkills: [
-        {
-          skillName: 'nodejs',
-          iconifyTag: 'logos:nodejs-icon',
-        },
-        {
-          skillName: 'TypeScript',
-          iconifyTag: 'logos:typescript-icon',
-        },
-        {
-          skillName: 'Reactjs',
-          iconifyTag: 'vscode-icons:file-type-reactjs',
-        },
+        { skillName: 'HTML5', iconifyTag: 'logos:html-5' },
+        { skillName: 'CSS3', iconifyTag: 'logos:css-3' },
+        { skillName: 'JavaScript', iconifyTag: 'logos:javascript' },
+        { skillName: 'TypeScript', iconifyTag: 'logos:typescript-icon' },
+        { skillName: 'Reactjs', iconifyTag: 'vscode-icons:file-type-reactjs' },
         {
           skillName: 'Nextjs',
           iconifyTag: 'vscode-icons:file-type-light-next',
         },
-        {
-          skillName: 'Python',
-          iconifyTag: 'logos:python',
-        },
+        { skillName: 'Redux', iconifyTag: 'logos:redux' },
+        { skillName: 'Bootstrap', iconifyTag: 'logos:bootstrap' },
       ],
     },
     {
-      title: 'Cloud Infra-Architecture',
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json',
+      title: 'Backend Development',
+      lottieAnimationFile: '/lottie/skills/backend.json',
       skills: [
-        emoji('🔹 Experience of working on multiple cloud platforms'),
-        emoji(
-          '🔹 Hosting and maintaining websites on virtual machine instances along with integration of databases'
-        ),
+        emoji('🔹 Building RESTful APIs using Node.js & Express.js'),
+        emoji('🔹 Scalable backend with TypeScript, MongoDB, and MySQL'),
+        emoji('🔹 Cache management using Redis'),
       ],
       softwareSkills: [
-        {
-          skillName: 'AWS',
-          iconifyTag: 'logos:aws',
-        },
-        {
-          skillName: 'Azure',
-          iconifyTag: 'logos:microsoft-azure',
-        },
-        {
-          skillName: 'Github',
-          iconifyTag: 'akar-icons:github-fill',
-        },
+        { skillName: 'JavaScript', iconifyTag: 'logos:javascript' },
+        { skillName: 'TypeScript', iconifyTag: 'logos:typescript-icon' },
+        { skillName: 'Express', iconifyTag: 'logos:express' },
+        { skillName: 'nodejs', iconifyTag: 'logos:nodejs-icon' },
+        { skillName: 'MongoDB', iconifyTag: 'logos:mongodb' },
+        { skillName: 'MySQL', iconifyTag: 'logos:mysql' },
+        { skillName: 'Redis', iconifyTag: 'logos:redis' },
+        { skillName: 'Git', iconifyTag: 'logos:git-icon' },
+        { skillName: 'Python', iconifyTag: 'logos:python' },
+      ],
+    },
+    {
+      title: 'Cloud Platforms & Services',
+      lottieAnimationFile: '/lottie/skills/cloudinfra.json',
+      skills: [
+        emoji('🔹 Working on AWS & Azure cloud platforms'),
+        emoji('🔹 Deploying and maintaining apps on Firebase'),
+        emoji('🔹 Version control and collaboration using GitHub'),
+      ],
+      softwareSkills: [
+        { skillName: 'AWS', iconifyTag: 'logos:aws' },
+        { skillName: 'Azure', iconifyTag: 'logos:microsoft-azure' },
+        { skillName: 'Github', iconifyTag: 'akar-icons:github-fill' },
+        { skillName: 'Firebase', iconifyTag: 'logos:firebase' },
       ],
     },
   ],
