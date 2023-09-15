@@ -3,7 +3,6 @@ import { Button, Container } from 'reactstrap';
 import s from './CV.module.css';
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
-import emoji from 'react-easy-emoji';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -16,7 +15,7 @@ const CV = () => {
   });
 
   const resumeLink =
-    'https://raw.githubusercontent.com/mariusrp/portfolio/master/samplecv.pdf';
+    'https://raw.githubusercontent.com/mariusrp/portfolio/master/mariusphillipsCV.pdf';
   const Resume = () => {
     const pdfWrapper = useRef<HTMLDivElement | null>(null);
     const [pdfPageWidth, setPdfPageWidth] = useState<number | null>(null);
