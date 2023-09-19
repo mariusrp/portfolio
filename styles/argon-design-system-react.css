@@ -15500,7 +15500,7 @@ a.text-blue:hover,
 a.text-blue:focus {
   color: #233dd2 !important;
 }
-
+ 
 .text-indigo {
   color: #5603ad !important;
 }
@@ -18819,6 +18819,7 @@ p {
 .lead + .btn-wrapper {
   margin-top: 3rem;
 }
+
 
 .description {
   font-size: 0.875rem;
