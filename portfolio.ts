@@ -37,12 +37,18 @@ export const skillsSection = {
       title: 'Frontend Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json',
       skills: [
-        emoji('🔹 Designing and developing UI using HTML & CSS'),
-        emoji('🔹 Creating dynamic applications using JavaScript & TypeScript'),
-        emoji('🔹 Building responsive UIs with React.js & Next.js'),
+        emoji(
+          '🔹 Proficient in building dynamic, interactive, and responsive web applications using React and TypeScript.'
+        ),
+        emoji(
+          '🔹 Skilled in crafting visually appealing and intuitive interfaces using different frameworks.'
+        ),
+        emoji(
+          "🔹 Experience in consuming RESTful API's, fetching and managing data efficiently, and rendering complex UI components, following best practices."
+        ),
       ],
       softwareSkills: [
-        { skillName: 'HTML5', iconifyTag: 'logos:html-5' },
+        { skillName: 'HTML', iconifyTag: 'logos:html-5' },
         { skillName: 'CSS3', iconifyTag: 'logos:css-3' },
         { skillName: 'TypeScript', iconifyTag: 'logos:typescript-icon' },
         { skillName: 'React', iconifyTag: 'vscode-icons:file-type-reactjs' },
@@ -53,19 +59,24 @@ export const skillsSection = {
       title: 'Backend Development',
       lottieAnimationFile: '/lottie/skills/backend.json',
       skills: [
-        emoji('🔹 Building RESTful APIs using Node.js & .NET'),
-        emoji('🔹 Scalable backend with TypeScript, C#, MongoDB, and MySQL'),
-        emoji('🔹 Cache management using Redis'),
+        emoji(
+          '🔹 Expertise in architecting RESTful APIs utilizing Node.js & .NET frameworks.'
+        ),
+        emoji(
+          '🔹 Developing scalable backends with a focus on performance, utilizing TypeScript, C#, MongoDB, MySQL and Azure DB.'
+        ),
+        emoji(
+          '🔹 Implementing robust cache management solutions using Redis to optimize data retrieval and enhance application efficiency.'
+        ),
       ],
       softwareSkills: [
         { skillName: 'TypeScript', iconifyTag: 'logos:typescript-icon' },
-        { skillName: 'nodejs', iconifyTag: 'logos:nodejs-icon' },
-        { skillName: 'dotnet', iconifyTag: 'logos:dotnet' },
+        { skillName: 'Node.js', iconifyTag: 'logos:nodejs-icon' },
+        { skillName: '.NET', iconifyTag: 'logos:dotnet' },
         { skillName: 'MongoDB', iconifyTag: 'logos:mongodb' },
         { skillName: 'MySQL', iconifyTag: 'logos:mysql' },
         { skillName: 'Azure DB', iconifyTag: 'logos:azure' },
         { skillName: 'Redis', iconifyTag: 'logos:redis' },
-        { skillName: 'Git', iconifyTag: 'logos:git-icon' },
         { skillName: 'Python', iconifyTag: 'logos:python' },
       ],
     },
@@ -75,12 +86,13 @@ export const skillsSection = {
       skills: [
         emoji('🔹 Working on AWS & Azure cloud platforms'),
         emoji('🔹 Deploying and maintaining apps on multiple platforms'),
-        emoji('🔹 Version control and collaboration using GitHub'),
+        emoji('🔹 Version control and collaboration using Git and GitHub'),
       ],
       softwareSkills: [
         { skillName: 'AWS', iconifyTag: 'logos:aws' },
         { skillName: 'Azure', iconifyTag: 'logos:microsoft-azure' },
         { skillName: 'Github', iconifyTag: 'akar-icons:github-fill' },
+        { skillName: 'Git', iconifyTag: 'logos:git-icon' },
         { skillName: 'Firebase', iconifyTag: 'logos:firebase' },
       ],
     },
@@ -118,7 +130,7 @@ export const projects: ProjectType[] = [
     desc: 'Fullstack Ecommerce platform offering user authentication, search, database interactions, admin features, and more.',
     github: 'https://github.com/mariusrp/ts-ecommerce',
     link: 'https://automatehub-2f20f689285e.herokuapp.com/',
-    tags: ['Typescript', 'NodeJs', 'React', 'MongoDB', 'Paypal-API'],
+    tags: ['NodeJs', 'Typescript', 'React', 'MongoDB', 'Paypal-API'],
   },
   {
     name: 'NyttPluss',
