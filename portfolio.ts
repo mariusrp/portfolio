@@ -72,7 +72,7 @@ export const skillsSection = {
       softwareSkills: [
         { skillName: 'TypeScript', iconifyTag: 'logos:typescript-icon' },
         { skillName: 'NodeJs', iconifyTag: 'logos:nodejs-icon' },
-        { skillName: '.NET', iconifyTag: 'logos:dotnet' },
+        { skillName: 'DotNET', iconifyTag: 'logos:dotnet' },
         { skillName: 'MongoDB', iconifyTag: 'logos:mongodb' },
         { skillName: 'MySQL', iconifyTag: 'logos:mysql' },
         { skillName: 'Azure DB', iconifyTag: 'logos:azure' },
