@@ -147,7 +147,7 @@ export const projects: ProjectType[] = [
     desc: 'Fully responsive portfolio website to display experience, skills, and education.',
     github: 'https://github.com/mariusrp/portfolio',
     link: 'https://mariusrp.com/',
-    tags: ['NextJS', 'TypeScript', 'React'],
+    tags: ['NextJS', 'TypeScript', 'React', 'EmailJS'],
   },
 
   // {
@@ -171,7 +171,7 @@ export const projects: ProjectType[] = [
     desc: "Movie database web app mirroring IMDB's functionality. Uses TMDB API, and built with Next.js.",
     github: 'https://github.com/mariusrp/imdb-clone',
     link: 'https://mpmovies.vercel.app/',
-    tags: ['NextJS', 'TailwindCSS', 'React', 'TMDB API'],
+    tags: ['NextJS', 'JavaScript', 'React', 'TMDB API'],
   },
 ];
 
