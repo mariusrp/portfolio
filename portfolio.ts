@@ -24,7 +24,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://mariusrp.github.io/',
+  url: 'https://github.com/mariusrp/portfolio',
   linkedin: 'https://www.linkedin.com/in/marius-phillips-85a10b247/',
   github: 'https://github.com/mariusrp',
 };
