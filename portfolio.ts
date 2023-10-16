@@ -71,7 +71,7 @@ export const skillsSection = {
       ],
       softwareSkills: [
         { skillName: 'TypeScript', iconifyTag: 'logos:typescript-icon' },
-        { skillName: 'Node.js', iconifyTag: 'logos:nodejs-icon' },
+        { skillName: 'NodeJs', iconifyTag: 'logos:nodejs-icon' },
         { skillName: '.NET', iconifyTag: 'logos:dotnet' },
         { skillName: 'MongoDB', iconifyTag: 'logos:mongodb' },
         { skillName: 'MySQL', iconifyTag: 'logos:mysql' },
@@ -135,7 +135,7 @@ export const projects: ProjectType[] = [
   {
     name: 'NyttPluss',
     projectImg: 'img/icons/common/nyttpluss-screenshot.png',
-    desc: 'Responsive newspage displaying live norwegian news. Offers google login and saving favorite news.',
+    desc: 'Responsive newspage displaying live norwegian news. Offers google login and saving favorite news functionality.',
     github: 'https://github.com/mariusrp/NyttPluss-backend',
     link: 'https://nyttpluss-frontend.vercel.app/',
     tags: ['.NET', 'Typescript', 'React', 'Azure DB', 'Google Login API'],
