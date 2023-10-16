@@ -3,7 +3,6 @@ import {
   EducationType,
   ExperienceType,
   ProjectType,
-  SkillsSectionType,
   SEODataType,
   SocialLinksType,
   GreetingsType,
@@ -38,10 +37,9 @@ export const skillsSection = {
       title: 'Frontend Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json',
       skills: [
-        emoji('🔹 Designing and developing UI using HTML5 & CSS3'),
+        emoji('🔹 Designing and developing UI using HTML & CSS'),
         emoji('🔹 Creating dynamic applications using JavaScript & TypeScript'),
         emoji('🔹 Building responsive UIs with React.js & Next.js'),
-        emoji('🔹 State management using Redux'),
       ],
       softwareSkills: [
         { skillName: 'HTML5', iconifyTag: 'logos:html-5' },
@@ -55,8 +53,8 @@ export const skillsSection = {
       title: 'Backend Development',
       lottieAnimationFile: '/lottie/skills/backend.json',
       skills: [
-        emoji('🔹 Building RESTful APIs using Node.js & Express.js'),
-        emoji('🔹 Scalable backend with TypeScript, MongoDB, and MySQL'),
+        emoji('🔹 Building RESTful APIs using Node.js & .NET'),
+        emoji('🔹 Scalable backend with TypeScript, C#, MongoDB, and MySQL'),
         emoji('🔹 Cache management using Redis'),
       ],
       softwareSkills: [
@@ -76,7 +74,7 @@ export const skillsSection = {
       lottieAnimationFile: '/lottie/skills/cloudinfra.json',
       skills: [
         emoji('🔹 Working on AWS & Azure cloud platforms'),
-        emoji('🔹 Deploying and maintaining apps on Firebase'),
+        emoji('🔹 Deploying and maintaining apps on multiple platforms'),
         emoji('🔹 Version control and collaboration using GitHub'),
       ],
       softwareSkills: [
@@ -134,7 +132,7 @@ export const projects: ProjectType[] = [
   {
     name: 'Portfolio',
     projectImg: 'img/icons/common/portfolio-screenshot.png',
-    desc: 'Beautiful fully responsive portfolio website to display experience, skills, and education.',
+    desc: 'Fully responsive portfolio website to display experience, skills, and education.',
     github: 'https://github.com/mariusrp/portfolio',
     link: 'https://mariusrp.com/',
     tags: ['NextJS', 'TypeScript', 'React'],
